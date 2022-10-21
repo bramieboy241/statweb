@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Oef_02</title>
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="get">
+        <label for="voornaam">Voornaam: <input type="text" id="voornaam" name="voornaam" placeholder="Stijn" ></label>
+        <br>
+        <label for="familienaam">Familienaam: <input type="text" id="familienaam" name="familienaam" placeholder="Willekens"></label>
+        <br>
+        <label for="gebruikersnaam">Gebruikersnaam: <input type="text" id="gebruikersnaam" name="gebruikersnaam" placeholder="mail@thomasmore.be" required></label>
+        <br>
+        <label for="nickname">Nickname: <input type="text" id="nickname" name="nickname" required minlength="5" maxlength="15"></label>
+        <br>
+        <label for="paswoord">Paswoord: <input type="password" id="paswoord" name="pasword" required></label>
+        <br>
+        <label for="herhaal">Herhaal paswoord: <input type="password" id="herhaal" name="herhaal" required></label>
+        <br>
+        <input type="submit" value="Registreren">
+    </form>
+</body>
+</html>
