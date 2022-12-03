@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    }
+    
+body {
+    background-color: #e6e6e6;
+}
+    
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+    
+ul {
+    background-color: #008693;
+    list-style-type: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 4px #f04c25 solid;
+}
+    
+li {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    color: #fff;
+}
+    
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+    
+.active {
+    background-color: #f04c25;
+}
+    
+.content {
+    background-color: #fff;
+    overflow: auto;
+}
+    
+footer {
+    background-color: #008693;
+    color: white;
+    text-align: right;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 4px #f04c25 solid;
+    padding: 14px;
+    clear: both;
+    font-weight: bold;
+}
+
+.right {
+    float: right
+}
+        
+h1 {
+    font-size: xx-large;
+}
+        
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+        
+header {
+    margin-bottom: 20px;
+}
+
+.img_size {
+    width: 100%;
+}
+
+.strong {
+    font-weight: 700;
+  }
+    
+.right_geluid {
+    float: right;
+    width: 40%;
+    padding-right: 10px;
+}
+    
+.left_geluid {
+    float: left;
+    width: 60%;
+    padding-left: 10px;
+}
+
+input[type="text"],
+select {
+  /* <input type="text"/> en <select></select> */
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  /* <textarea></textarea/> */
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  /* <input type="submit"/> */
+  width: 100%;
+  background-color: #f04c25;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="button"] {
+  /* <input type="button"/> */
+  width: 100%;
+  background-color: #f04c25;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}

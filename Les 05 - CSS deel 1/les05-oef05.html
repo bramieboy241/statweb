@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Oefening 05</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="author" content="Bram Serré">
+    <style>
+        .groen {
+            background-color: green;
+            color: white;
+        }
+        fieldset {
+            border: 2px solid green;
+            border-radius: 30px;
+            width: 350px
+        }
+        #knopregistreren {
+            height: 50px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="registreren.php" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="voornaam">Voornaam:
+                <input type="text" class="groen" id="voornaam" name="voornaam" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="familienaam">Familienaam:
+                <input type="text" class="groen" id="familienaam" name="familienaam" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="adres">Adres:
+                <input type="text" class="groen" id="adres" name="adres">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="provincie">Provincie:
+                <select name="provincie" class="groen" id="provincie">
+                    <option value="antwerpen">Antwerpen</option>
+                    <option value="limburg" selected>Limburg</option>
+                    <option value="oost-vlaanderen">Oost-Vlaanderen</option>
+                    <option value="vlaams-brabant">Vlaams-Brabant</option>
+                    <option value="west-vlaanderen">West-Vlaanderen</option>
+                    <option value="henegouwen">Henegouwen</option>
+                    <option value="luik">Luik</option>
+                    <option value="luxemburg">Luxemburg</option>
+                    <option value="namen">Namen</option>
+                    <option value="waals-brabant">Waals-Brabant</option>
+                </select>
+            </label>
+        </div>
+        <br>
+        <fieldset >
+            <legend>Geslacht</legend>
+
+            <label for="man">Man
+                <input type="radio" id="man" name="geslacht" value="man"> </label>
+
+            <label for="vrouw">Vrouw
+                <input type="radio" id="vrouw" name="geslacht" value="vrouw"> </label>
+
+            <label for="ander">Ander
+                <input type="radio" id="ander" name="geslacht" value="ander"> </label>
+        </fieldset>
+        <br>
+        <div>
+            <label for="foto">Foto
+                <input type="file" id="foto" name="foto">
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for="algemenevoorwaarden"> Ik ga akkoord met de algemene voorwaarden
+                <input type="checkbox" id="algemenevoorwaarden" name="algemenevoorwaarden" value="akkoord">
+            </label>
+        </div>
+        <br>
+        <div>
+            <input type="submit" class="groen" id="knopregistreren" value="Registreren">
+        </div>
+    </form>
+</body>
+
+</html>
