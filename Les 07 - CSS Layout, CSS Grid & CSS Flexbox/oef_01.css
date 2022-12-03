@@ -1,0 +1,35 @@
+* {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+html {
+
+    background: url(Les\ 07\ -\ Startbestanden/kompas.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.noord{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.zuid {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.oost {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+.west {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translate(0, -50%)
+}

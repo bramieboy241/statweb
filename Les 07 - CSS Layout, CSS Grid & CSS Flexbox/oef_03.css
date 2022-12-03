@@ -1,0 +1,51 @@
+.item_1 {
+    background-color: lightblue;
+}
+.item_2 {
+    background-color: plum;
+}
+.item_3 {
+    background-color: green;
+}
+.item_4 {
+    background-color: yellow;
+}
+.item_5 {
+    background-color: orange;
+}
+.item_6 {
+    background-color: purple;
+}
+.item_7 {
+    background-color: lightgreen;
+}
+.item_8 {
+    background-color: blue;
+}
+.item_9 {
+    background-color: gold;
+}
+.item_10 {
+    background-color: cornflowerblue;
+}
+.item_11 {
+    background-color: green;
+}
+.item_12 {
+    background-color: purple;
+}
+
+.container {
+    display: flex;
+}
+.container > div {
+    flex-grow: 1;
+    text-align: center;
+    padding: 40px;
+    height: 200px;
+    margin: 10px;
+}
+
+body {
+    font-size: 40px;
+}
