@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.row_one {
+    width: 60%;
+    padding: 15px;
+}
+.row_two {
+    width: 40%;
+    padding: 15px;
+    float: right;
+}
+.row_three {
+    width: 25%;
+    padding: 15px;
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 500px){
+    .row_one {
+        width: 100%;
+    }
+    .row_two {
+        width: 100%;
+    }
+    .row_three {
+        width: 100%;
+    }
+}

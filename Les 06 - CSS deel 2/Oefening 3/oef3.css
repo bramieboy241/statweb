@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+
+.col_one {
+    width: 30%;
+    padding: 15px;
+
+}
+.col_two {
+    width: 70%;
+    padding: 15px;
+    float: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width: 600px){
+    .col_one {
+        width: 100%;
+    }
+    .col_two {
+        width: 100%;
+    }
+}
